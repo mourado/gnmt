@@ -39,7 +39,9 @@ Steps required to launch single node training on NVIDIA DGX A100:
 
 ```
 docker build --pull -t <docker/registry>/mlperf-nvidia:rnn_translator .
+docker build --pull -t mlperf-nvidia:rnn_translator .
 docker push <docker/registry>/mlperf-nvidia:rnn_translator
+docker push mlperf-nvidia:rnn_translator
 ```
 
 2. Launch the training:
