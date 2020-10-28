@@ -1,4 +1,4 @@
-# gnmt
+# gnmt for A100 GPUs with Version 0.7
 GNMT Benchmarking in GPUs 
 
 # 1. Problem
