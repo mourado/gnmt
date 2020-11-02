@@ -1,6 +1,12 @@
 # gnmt for A100 GPUs with Version 0.7
 GNMT Benchmarking in GPUs 
-
+```
+Pull the model code. Use the NGC resources page for the selected model, or from the NVIDIA Deep Learning Examples GitHub repository.
+Build a Docker container. This automatically pulls the relevant TensorFlow, PyTorch, or MXNet container from NGC, and installs any extra dependencies on top. 
+Download the data. We provide the scripts for downloading and preparing any example dataset required.
+Execute training and evaluation. We provide scripts for training models end-to-end and to validate the trained models.
+Deploy the trained models in production. For many models, we also provide guidance to deploy models into production with the NVIDIA Triton Inference Server.
+```
 # 1. Problem
 
 This problem uses recurrent neural network to do language translation.
